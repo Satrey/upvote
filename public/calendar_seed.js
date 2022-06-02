@@ -23,7 +23,7 @@ export const seedData = [
                 edit: false
             },
         ],
-        active: true
+        active: false
     },
     {
         id: 3,
@@ -38,7 +38,7 @@ export const seedData = [
                 edit: false
             }
         ],
-        active: true
+        active: false
     },
     {
         id: 4,
@@ -53,7 +53,7 @@ export const seedData = [
                 edit: false
             }
         ],
-        active: true
+        active: false
     },
     {
         id: 5,
@@ -68,7 +68,7 @@ export const seedData = [
                 edit: false
             }
         ],
-        active: true
+        active: false
     },
     {
         id: 6,
@@ -83,7 +83,7 @@ export const seedData = [
                 edit: false
             }
         ],
-        active: true
+        active: false
     },
     {
         id: 7,
@@ -98,6 +98,6 @@ export const seedData = [
                 edit: false
             }
         ],
-        active: true
+        active: false
     },
 ]

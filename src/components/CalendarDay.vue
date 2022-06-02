@@ -4,7 +4,7 @@
                     @click="setActiveDay(day.id)"
                     :class="{ active : day.active }"
             >
-                <v-card-title id="card-title">{{day.abbvTitle}}</v-card-title>
+                <v-card-title id="card-title">{{day.abbvTitle}} {{day.active}}</v-card-title>
                 <v-card-subtitle class="mt-2 mb-2">
                     {{day.fullTitle}}
                 </v-card-subtitle>
@@ -37,7 +37,7 @@ export default {
 
   data() {
     return {
-        
+    
     };
   },
 

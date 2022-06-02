@@ -3,7 +3,8 @@
     <CalendarDay 
         v-for="day in sharedState.data" 
         :key="day.id" 
-        :day="day" 
+        :day="day"
+        :active="day.active" 
     />
   </v-container-fluid>
 </template>
