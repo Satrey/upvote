@@ -25,6 +25,11 @@ const routes = [
     name: 'calendar',
     component: () => import('../views/CalendarView.vue')
   },
+  {
+    path: '/notes',
+    name: 'notes',
+    component: () => import('../views/NotesView.vue')
+  },
 ]
 
 const router = createRouter({
