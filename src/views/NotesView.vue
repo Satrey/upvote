@@ -2,7 +2,7 @@
   <div>
     <v-container-fluid theme="dark">
       <h1 class="text-center mt-4 mb-4">Custom Events</h1>
-      <NotesInput @add-note="addNewNote"/>
+      <NotesInput />   //@add-note="addNewNote"
     </v-container-fluid>
     <v-container class="rounded-6">
       <v-card class="" elevation="10">
@@ -36,6 +36,8 @@ export default {
     NotesInput,
   },
 
+
+
   data() {
     return {
       notes: [
@@ -62,6 +64,9 @@ export default {
           console.log('Parent receive data from input component : ',newId ,' : ', event.name, ' : ', event.pub);
       },
   },
+
+
+
 };
 </script>
 <style lang="">

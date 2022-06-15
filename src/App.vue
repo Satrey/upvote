@@ -7,12 +7,18 @@
 </template>
 
 <script>
+
 export default {
   name: "App",
 
   data: () => ({
     //
   }),
+
+  created () {
+    //this.emitter.$on("add-note", (event) => this.addNewNote(event));
+  },
+
 };
 </script>
 

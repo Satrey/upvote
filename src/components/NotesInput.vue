@@ -40,7 +40,7 @@ export default {
   methods: {
       addNewNote(){
           const currentDate = new Date();
-          this.$emit('add-note', {name: this.currentInput, pub: currentDate.toLocaleString()});
+          this.emitter.emit('add-note', {name: this.currentInput, pub: currentDate.toLocaleString()});
           this.currentInput = '';
           console.log('Component method send data to parent : ');
       },
